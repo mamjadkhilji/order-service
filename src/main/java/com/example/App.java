@@ -15,6 +15,7 @@ public class App
 {
     public static void main( String[] args )
     {
+        System.out.println( "Hello World..........Container!" );
     	SpringApplication.run(App.class, args);
         System.out.println( "Hello World!" );
     }
