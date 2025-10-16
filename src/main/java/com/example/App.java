@@ -9,8 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
  *
  */
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.example.*"
-})
+@ComponentScan(basePackages = {"com.example.*"})
 public class App 
 {
     public static void main( String[] args )
