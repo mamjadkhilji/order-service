@@ -8,6 +8,7 @@ public class OrderController {
 
     @GetMapping("/hello")
     public String hello() {
+    	System.out.println( "Your calling hello API from OrderController" );
         return "Hello from Order Service!";
     }
 }
